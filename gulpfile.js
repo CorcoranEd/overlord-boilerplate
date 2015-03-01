@@ -18,9 +18,8 @@ var express_port = 8888,
 	express_root = __dirname + '/dist/',
 	lr = void 0,
 	livereload_port = 35729,
-	dist = { html: "dist/", js: "dist/js/", css: "dist/css/", img: "dist/img/" },
-	src = { sass: "src/sass/base.scss", js: "src/js/**/*.js", img: "src/img/**/*.{jpg,svg,png}", overlord: "dist/**/*.{js,html,css}" },
-	stat = [ "src/*.html", "src/*.ico" ];
+	dist = { stat: "dist/", css: "dist/css/", js: "dist/js/", img: "dist/img/", overlord: "dist/**/*.{js,html,css}" },
+	src = { stat: [ "src/*.html", "src/*.ico" ], sass: "src/sass/base.scss", js: "src/js/**/*.js", img: "src/img/**/*.{jpg,svg,png}" };
 
 // Server
 gulp.task('serve', function(event) {
@@ -62,7 +61,7 @@ gulp.task("sass", function(event) {
 	.pipe(gulp.dest(dist.css));
 });
 
-// JS
+// Javascript
 gulp.task('js', function(event) {
     return gulp.src(src.js)
     .pipe(concat('app.js'))
@@ -71,25 +70,25 @@ gulp.task('js', function(event) {
     .pipe(gulp.dest(dist.js));
 });
 
-// IMG
+// Images
 gulp.task('img', function(event) {
     return gulp.src(src.img)
     .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest(dist.img));
 });
 
-// Static
+// Static files
 gulp.task('copy', function() {
-  return gulp.src(stat, {base: 'src/'})
-    .pipe(gulp.dest(dist.html))
+  return gulp.src(src.stat, {base: 'src/'})
+    .pipe(gulp.dest(dist.stat))
 });
 
 // Watch
 gulp.task("watch", function() {
 	gulp.watch(src.sass, ["sass"]);
 	gulp.watch(src.js, ["js"]);
-	gulp.watch(stat, ["copy"]);
-	gulp.watch(src.overlord, refresh);
+	gulp.watch(src.stat, ["copy"]);
+	gulp.watch(dist.overlord, refresh);
 });
 
 //Browser
