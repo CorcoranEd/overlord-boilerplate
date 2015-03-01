@@ -1,0 +1,13 @@
+### ignore ###
+
+# Hidden mac files
+.DS_Store
+
+# Logs
+*.log
+
+# dist contents
+dist/
+
+# Dependency directory
+node_modules/

@@ -1,0 +1,80 @@
+// Webfonts
+
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+
+// Variables
+
+$font-stack: 'Inconsolata', Helvetica, Arial, sans-serif;
+$font-size: 16px;
+$line-height: 1.4em;
+
+$vertical-spacing: 60px;
+$gutter-spacing: 30px;
+$page-margins: 20px;
+
+$max-width-large: 1024px;
+$max-width-medium: 768px;
+$max-width-small: 400px;
+
+$header-color: cyan;
+
+//Mixins
+
+@mixin breakpoint($point) {
+  $small: "(max-width: #{$max-width-small})";
+  $medium: "(max-width: #{$max-width-medium})";
+  $large: "(max-width: #{$max-width-large})";
+  @if $point == large { @media #{$large} { @content; } }
+  @else if $point == medium { @media #{$medium} { @content; } }
+  @else if $point == small { @media #{$small}  { @content; } }
+}
+
+
+// Imports
+
+@import "reset";
+@import "./node_modules/jeet/scss/jeet/index";
+// @include edit();
+
+
+// Typography
+
+body {
+	font: $font-size $font-stack;
+	line-height: $line-height;
+	background: black;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: $line-height;
+}
+
+// Layout
+
+header {
+	background-color: $header-color;
+}
+
+header h1 {
+	text-align: center;
+	padding: 2em;
+	color: black;
+}
+
+h2 {
+	margin: 1em;
+}
+
+footer {
+	margin-top: 1em;
+	text-align: center;
+	color: magenta;
+}
+
+.center {
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+}
