@@ -18,7 +18,7 @@ As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). 
 
 1. clone the repo
 
-		'git clone https://ejcorcoran@bitbucket.org/ejcorcoran/overlord-boilerplate.git'    
+		'git clone https://[YOUR_USERNAME]@bitbucket.org/ejcorcoran/overlord-boilerplate.git'    
 
 2. install dependencies
 
