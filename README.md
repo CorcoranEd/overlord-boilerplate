@@ -8,11 +8,11 @@ This is a simple gulp boilerplate that gives you the following:
 * image minifying
 * static file watch
 
-it's aim is purely to act as a simple starting point for web projects.
+It's aim is purely to act as a simple starting point for web projects.
 
 ## Usage
 
-as a prerequisite it's assumed you have installed [node.js](http://nodejs.org).
+As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). To start using the boilerplate you need to run the following terminal commands.
 
 1. clone the repo
 
