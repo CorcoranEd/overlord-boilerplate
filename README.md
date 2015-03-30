@@ -18,16 +18,16 @@ As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). 
 
 1. clone the repo
 
-		'git clone https://ejcorcoran@bitbucket.org/ejcorcoran/overlord-boilerplate.git'
-
+		'git clone https://ejcorcoran@bitbucket.org/ejcorcoran/overlord-boilerplate.git'  
+		
 2. install dependencies
 
-		'npm install'
+		'npm install'  
 
 3. start gulp with
 		
-		'gulp'
+		'gulp'  
 
-4. start hacking away on the contents of `src/` with super fast livereload goodness.
+4. start hacking away on the contents of `src/` with super fast livereload goodness.  
 
 * * *
