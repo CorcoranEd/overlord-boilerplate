@@ -1,16 +1,17 @@
-#overlord-boilerplate
+# overlord-boilerplate
 
 This is a simple gulp boilerplate that gives you the following:
 
 * express server w/ livereload browser refresh on change
 * sass compilation
 * js compilation
-* image minify
+* image minifying
 * static file watch
 
 it's aim is purely to act as a simple starting point for web projects.
 
-##usage
+## Ussage
+
 as a prerequisite it's assumed you have `npm` installed and the `gulp-cli`.
 
 1. clone the repo
@@ -23,6 +24,6 @@ as a prerequisite it's assumed you have `npm` installed and the `gulp-cli`.
 
 3. start gulp with
 		
-		`gulp`
+		'gulp'
 
 4. start hacking away on the contents of src/ with super fast livereload goodness.

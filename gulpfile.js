@@ -33,7 +33,7 @@ var express_port = 8888,
 				stat: [
 					"src/*.html",
 					"src/*.ico",
-					"src/video/*"
+					"src/video/*.*"
 				],
 				sass: "src/sass/base.scss",
 				js: [
@@ -41,7 +41,6 @@ var express_port = 8888,
 				],
 				img: "src/img/**/*.*"
 			};
-// */*.{jpg,svg,png,gif}
 
 // Clean
 gulp.task('clean', function(cb) {
