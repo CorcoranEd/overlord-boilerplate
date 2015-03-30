@@ -18,7 +18,7 @@ As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). 
   
 1. clone the repo `git clone https://`your-username`@bitbucket.org/ejcorcoran/overlord-boilerplate.git`
   
-2. install dependencies `npm install`
+2. cd to the boilerplate directory and install dependencies `npm install`
   
 3. start gulp with `gulp`
   
