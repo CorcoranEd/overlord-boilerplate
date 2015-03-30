@@ -29,4 +29,4 @@ as a prerequisite it's assumed you have installed [node.js](http://nodejs.org).
 		'gulp'
 
 
-4. start hacking away on the contents of 'src/' with super fast livereload goodness.
+4. start hacking away on the contents of "src/" with super fast livereload goodness.
