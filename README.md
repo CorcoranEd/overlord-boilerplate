@@ -16,7 +16,7 @@ It's aim is purely to act as a simple starting point for web projects.
 
 As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). To start using the boilerplate you need to run the following terminal commands.
 
-1. clone the repo `git clone https://`[YOUR_USERNAME](http://bitbucket.org)`@bitbucket.org/ejcorcoran/overlord-boilerplate.git`
+1. clone the repo `git clone https://`your-username`@bitbucket.org/ejcorcoran/overlord-boilerplate.git`
 
 2. install dependencies `npm install`
 
