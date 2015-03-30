@@ -12,7 +12,7 @@ it's aim is purely to act as a simple starting point for web projects.
 
 ## Usage
 
-as a prerequisite it's assumed you have `npm` installed and the `gulp-cli`.
+as a prerequisite it's assumed you have installed [node.js](http://nodejs.org).
 
 1. clone the repo
 
