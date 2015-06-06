@@ -1,4 +1,4 @@
-### ignore ###
+### Ignore ###
 
 # Hidden mac files
 .DS_Store
@@ -6,8 +6,9 @@
 # Logs
 *.log
 
-# dist contents
-dist/
+# Dist contents
+/dist/
+/dist/*
 
 # Dependency directory
-node_modules/
+/node_modules/
