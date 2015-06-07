@@ -5,7 +5,7 @@ Gulp boilerplate with everything you need to make some rad static websites
 * * *
 
 ## Installation
-As a prerequisite it's assumed you have installed [node.js](http://nodejs.org). To start using the boilerplate you need to run the following terminal commands.
+As a prerequisite it's assumed you have installed [node.js](http://nodejs.org), [Ruby](https://www.ruby-lang.org/en/) and [Bundler](http://bundler.io). To start using the boilerplate you need to run the following terminal commands.
 
 Clone the repo
 
