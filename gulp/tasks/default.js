@@ -56,7 +56,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('jshint', function() {
-  return gulp.src(src.js)
+  return gulp.src(config.scripts.src)
     .pipe(jshint())
 });
 

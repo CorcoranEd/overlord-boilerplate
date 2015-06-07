@@ -61,7 +61,7 @@ module.exports = {
   watch: {
     sass:    src + '/scss/**/*.{sass,scss}',
     scripts: src + '/js/**/*.js',
-    images:  src + '/img/**/*',
+    images:  src + '/img/**/*.{svg,jpg,jpeg,png,gif}',
     html:    src + '/**/*.html'
   },
   scsslint: {
