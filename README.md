@@ -42,6 +42,6 @@ One task is available:
 $ gulp
 ```
 
-- Running `gulp` will start a Browsersync server, build and optimize assets then start a `watch` task.
+- Running `gulp` will start a Browsersync server, build and optimize assets then start a watch task.
 
 * * *
