@@ -6,6 +6,9 @@
 # Logs
 *.log
 
+# Caches
+*.cache
+
 # Dist contents
 /dist/
 /dist/*
