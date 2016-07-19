@@ -18,8 +18,10 @@ $max-width-small: 400px;
 
 $header-color: #0ff;
 
-//Mixins
+// Mixins
 
+// Breakpoint mixin
+// usage "@include breakpoint(small) {}"
 @mixin breakpoint($point) {
   $small: "(max-width: #{$max-width-small})";
   $medium: "(max-width: #{$max-width-medium})";
@@ -32,9 +34,11 @@ $header-color: #0ff;
 
 // Imports
 
+// Import brower reset
 @import 'helpers/reset';
 
-@import '../../node_modules/jeet/scss/jeet/index';
+// Import Jeet Grid System
+@import '../../node_modules/jeet/scss/jeet/jeet';
 // @include edit();
 
 

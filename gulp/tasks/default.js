@@ -24,6 +24,12 @@ gulp.task('delete', function(cb) {
     del(config.delete.src, cb);
 });
 
+// Clear Cache
+gulp.task("clear", ["delete"], function() {
+  return cache.clearAll(done);
+});
+
+
 // SASS
 gulp.task('sass', function() {
   var sassConfig = config.sass.options;

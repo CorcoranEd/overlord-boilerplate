@@ -10,10 +10,6 @@
     "Gulp",
     "SASS"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://ejcorcoran@bitbucket.org/ejcorcoran/overlord-boilerplate.git"
-  },
   "author": "Ed Corcoran",
   "license": "ISC",
   "devDependencies": {
