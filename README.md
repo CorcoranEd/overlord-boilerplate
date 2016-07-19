@@ -16,8 +16,7 @@ $ git clone https://github.com/CorcoranEd/overlord-boilerplate.git
 Change directory to the boilerplate directory and install dependencies
 
 ```sh
-$ bundle
-$ npm install
+$ bundle && npm install
 ```
 
 **Hint**: If you get errors while installing `gulp-imagemin` it may help to execute this command before running `npm install`:
