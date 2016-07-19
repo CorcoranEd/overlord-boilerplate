@@ -19,6 +19,7 @@ Change directory to the boilerplate directory and install dependencies
 $ bundle && npm install
 ```
 
+
 **Hint**: If you get errors while installing `gulp-imagemin` it may help to execute this command before running `npm install`:
 
 ```sh
